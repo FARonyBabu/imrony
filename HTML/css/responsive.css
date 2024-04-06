@@ -1,0 +1,29 @@
+/*Tablet layout*/
+@media screen  and (min-width: 200px) and (max-width:991px) {
+.social_area {max-width: 450px; padding-top: 14px;}
+.inner_manu { background: none; min-height: auto;}
+.inner_manu:after {display: none;}
+.mean-container .mean-nav {margin-top: 0px; width: 85%;}
+.inner_header {padding: 20px 0;}
+.inner_hero h2 {font-size: 46px; line-height: 4rem;}
+}
+
+/*Mobile layout*/
+@media screen  and (min-width: 200px) and (max-width:460px) {
+.mini_menu {width: 100%; margin-bottom: 10px;}
+.mini_menu ul, .social_area ul {text-align: center;}
+.search_area, .logo_area {float: none; width: 250px; margin: 0 auto;}
+.social_area ul li {margin: 0 7px;}
+.inner_hero h2 {font-size: 25px; line-height: 2rem;}
+.inner_hero, {padding-bottom: 20px;}
+.inner_hero a {float: right;}
+.child_work {width: 96%;}
+#work_area {padding: 0;}
+.child_footer{ width: 96%;}
+.left_copyright, .right_copyright{width: 100%;text-align: center;}
+#footer_area {padding: 0;}
+
+
+
+
+}
